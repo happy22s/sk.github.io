@@ -29,6 +29,28 @@ h1{
 	/*left:115px;
 	right:115px;*/
 	
+	
+}
+/*.grid{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	padding:20px 10px;
+	max-width:1400px;
+	margin:0 auto;
+	gap:16px;
+}*/
+.gallery{
+	/*object-fit:cover;*/
+	border-radius:10px;
+	width:550px;
+	height:550px;
+	
+	z-index:2;
+	position:relative;
+	top:250px;
+	left:550px;
 }
 
 @keyframes shaals{
@@ -140,11 +162,7 @@ audio{
     width: 100vw;
     position: fixed;
   }
-  h1{
-     font-size:45px;
-     position:relative; 
-     top:1024px;
-	}	
+	
 }
 
 
