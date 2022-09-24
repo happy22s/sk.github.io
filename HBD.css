@@ -141,6 +141,7 @@ audio{
     position: fixed;
   }
   h1{
+     font-size:45px;
      position:relative;
      top:1024px;
 	}	
