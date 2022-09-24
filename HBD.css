@@ -29,7 +29,6 @@ h1{
 	/*left:115px;
 	right:115px;*/
 	
-	
 }
 /*.grid{
 	display:flex;
@@ -65,7 +64,7 @@ h1{
 	15%{color: Electric Green;}
 	17%{ color:Tomato Sauce ;}
 	19%{ color: Bright Violet;}
-	20%{color: Mint Jelly ;}
+	20%{color: Mint Jelly ; text-transform:rotate(30deg);}
 	21%{ color:Vivid Raspberry ;}
 	23%{ color:Shocking Pink ;}
 	25%{color: Turquoise;}
@@ -83,7 +82,7 @@ h1{
 	45%{color:Coral ;}
 	47%{ color:Electric Lavender ;}
 	49%{ color: Peter Pan;}
-	50%{color: Mona Lisa;}
+	50%{color: Mona Lisa;text-transform:rotate(30deg);}
 	51%{ color:Reddish Pink ;}
 	53%{ color: Bright Cyan;}
 	55%{color: Orange Soda;}
@@ -173,11 +172,6 @@ audio{
 	top:450px;
 	left:650px;
 }
-	h1{
-		position:relative;
-		top:500px;
-		left:350px;
-	}
 	
 }
 
