@@ -64,7 +64,7 @@ h1{
 	15%{color: Electric Green;}
 	17%{ color:Tomato Sauce ;}
 	19%{ color: Bright Violet;}
-	20%{color: Mint Jelly ; text-transform:rotate(30deg);}
+	20%{color: Mint Jelly ; transform:rotate(60deg);}
 	21%{ color:Vivid Raspberry ;}
 	23%{ color:Shocking Pink ;}
 	25%{color: Turquoise;}
@@ -82,7 +82,7 @@ h1{
 	45%{color:Coral ;}
 	47%{ color:Electric Lavender ;}
 	49%{ color: Peter Pan;}
-	50%{color: Mona Lisa;text-transform:rotate(30deg);}
+	50%{color: Mona Lisa;transform:rotate(60deg);}
 	51%{ color:Reddish Pink ;}
 	53%{ color: Bright Cyan;}
 	55%{color: Orange Soda;}
