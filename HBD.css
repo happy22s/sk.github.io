@@ -173,6 +173,11 @@ audio{
 	top:450px;
 	left:650px;
 }
+	h1{
+		position:relative;
+		top:500px;
+		left:350px;
+	}
 	
 }
 
