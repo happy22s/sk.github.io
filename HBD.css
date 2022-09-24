@@ -162,6 +162,17 @@ audio{
     width: 100vw;
     position: fixed;
   }
+  .gallery{
+	/*object-fit:cover;*/
+	border-radius:10px;
+	width:350px;
+	height:350px;
+	
+	z-index:2;
+	position:relative;
+	top:450px;
+	left:650px;
+}
 	
 }
 
