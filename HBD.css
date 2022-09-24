@@ -1,0 +1,148 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow:hidden;
+}
+#canvas{
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  
+  z-index:-1;
+  max-width:100%;
+  max-height:100%;
+   
+}
+h1{
+	font-size:70px;
+    font-weight:900;
+    font-style:italic;
+    font-family:'Lobster',sans-serif;
+    padding:20px auto 20px auto;
+    color: purple;
+    text-align: center;
+    animation:shaals 10s linear infinite;
+	position:relative;
+	top:135px;
+	bottom:135px;
+	left:115px;
+	right:115px;
+	
+}
+
+@keyframes shaals{
+	0%{ color:Caribbean Blue;}
+	3%{ color: Yellow Duck;}
+	5%{color: Fluorescent Turquoise;}
+	7%{ color: Spoiled Egg;}
+	9%{ color: Ripe Mango;}
+	10%{color:Bitter Lime ;}
+	11%{ color:Pear ;}
+	13%{ color: Vivid Red;}
+	15%{color: Electric Green;}
+	17%{ color:Tomato Sauce ;}
+	19%{ color: Bright Violet;}
+	20%{color: Mint Jelly ;}
+	21%{ color:Vivid Raspberry ;}
+	23%{ color:Shocking Pink ;}
+	25%{color: Turquoise;}
+	27%{ color: Virtual Pink;}
+	29%{ color:Banana ;}
+	30%{color:Blaze Orange ;}
+	31%{ color: Neon Yellow;}
+	33%{ color:Saffron ;}
+	35%{color:Burning Tomato ;}
+	37%{ color:Tennis Ball;}
+	39%{ color: Ruby ;}
+	40%{color: Cheese;}
+	41%{ color:Tulip ;}
+	43%{ color:Hot Magenta ;}
+	45%{color:Coral ;}
+	47%{ color:Electric Lavender ;}
+	49%{ color: Peter Pan;}
+	50%{color: Mona Lisa;}
+	51%{ color:Reddish Pink ;}
+	53%{ color: Bright Cyan;}
+	55%{color: Orange Soda;}
+	57%{ color: Baby Green;}
+	59%{ color: Instant Orange;}
+	60%{color: Bubble Gum;}
+	61%{ color: Matcha Powder;}
+	63%{ color: Carnation Pink;}
+	65%{color:Dark Hot Pink ;}
+	67%{ color: Hot Purple;}
+	69%{ color: Citrus Yellow;}
+	70%{color: Pink Piano;}
+	71%{ color: Gold;}
+	73%{ color: Medium Scarlet ;}
+	75%{color: Rosy Pink;}
+	77%{ color: Spring Grass;}
+	79%{ color: cyan;}
+	80%{color: Royal Fuchsia;}	
+	81%{ color: red;}
+	83%{ color: Medium Spring Green;}
+	85%{color:Electric Indigo ;}
+	87%{ color: purple;}
+	89%{ color: white;}
+	90%{color: Mauve;}
+	91%{ color: maroon;}
+	93%{ color: Pure Blue;}
+	95%{color: True Purple;}
+	97%{ color: golden black;}
+	99%{ color: Crushed Ice;}
+	100%{color:Lava ;}
+}
+
+.container{
+	display:grid;
+	grid-template-columns:repeat(15,80px);
+	position:absolute;
+	top:550px;
+	left:150px;
+}
+
+.grid{
+	width:80px;
+	height:80px;
+	/*animation: mymove 5s infinite;*/
+	box-shadow: 0 0 20px 0 hsl(223,59%,31%,0.8);
+}
+img{
+	width:70px;
+	height:70px;
+	position:absolute;
+	top:5%;
+	left:2px;
+}
+
+audio{
+	position:absolute;
+	top:630px;
+	left:450px;
+}
+	
+@keyframes mymove {
+	
+  from {background: linear-gradient(60deg,rgb(110,120,150),rgb(190,56,70), rgb(170,35,199));}
+  to {background: linear-gradient(60deg,rgb(130,27,155),rgb(250,136,150), rgb(10,220,150));}
+}
+		
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (max-device-height: 480px) and (orientation:portrait) {
+    /* Your adjusted CSS goes here */
+	html {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+  }
+  #canvas{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+  }
+	
+}
+
+
+
+
