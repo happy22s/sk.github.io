@@ -23,8 +23,8 @@ h1{
     color: purple;
     text-align: center;
     animation:shaals 10s linear infinite;
-	position:absolute;
-	top:535px;
+	position:relative;
+	top:235px;
 	bottom:135px;
 	/*left:115px;
 	right:115px;*/
@@ -140,7 +140,10 @@ audio{
     width: 100vw;
     position: fixed;
   }
-	
+  h1{
+     position:fixed;
+     top:1024px;
+	}	
 }
 
 
