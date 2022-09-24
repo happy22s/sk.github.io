@@ -23,7 +23,7 @@ h1{
     color: purple;
     text-align: center;
     animation:shaals 10s linear infinite;
-	position:relative;
+	position:absolute;
 	top:535px;
 	bottom:135px;
 	/*left:115px;
